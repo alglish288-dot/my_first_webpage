@@ -1,0 +1,108 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    color: #26334A;
+  }
+  
+  p {
+    color: #444444;
+  }
+  
+  a {
+    color: #967256;
+  }
+  
+  li.logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+  }
+
+
+
+
+  #smart_thumbnail {
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  #smart_thumbnail.small {
+    width: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
