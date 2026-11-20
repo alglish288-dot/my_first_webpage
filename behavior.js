@@ -1,11 +1,8 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function() {
     var thumbnailElement = document.getElementById("smart_thumbnail");
 
     thumbnailElement.addEventListener("click", function() {
-        if (thumbnailElement.className === "small") {
-            thumbnailElement.className = "";
-        } else {
-            thumbnailElement.className = "small";
-        }
+        thumbnailElement.className =
+            thumbnailElement.className === "small" ? "" : "small";
     });
 });
