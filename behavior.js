@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
     var thumbnailElement = document.getElementById("smart_thumbnail");
 
